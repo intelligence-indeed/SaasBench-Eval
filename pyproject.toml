@@ -1,0 +1,44 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "intelligence-indeed-agent"
+version = "0.1.0b0"
+description = "Intelligence Indeed Agent: a reliability-oriented browser agent with app-aware prompts and capabilities."
+readme = "README.md"
+requires-python = ">=3.11"
+license = "Apache-2.0"
+authors = [
+    {name = "Intelligence Indeed Agent Contributors"},
+]
+dependencies = [
+    "browser-use==0.13.6",
+    "httpx>=0.27,<1",
+    "playwright==1.61.0",
+    "pyyaml>=6.0,<7",
+    "requests>=2.31,<3",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.4,<9",
+]
+
+[project.scripts]
+intelligence-indeed-agent = "saas_agent.cli:main"
+
+[project.urls]
+Upstream = "https://github.com/UniPat-AI/SaaS-Bench"
+Paper = "https://arxiv.org/abs/2605.15777"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["saas_agent*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"

@@ -1,0 +1,17 @@
+Intelligence Indeed Agent
+Copyright 2026 Intelligence Indeed Agent contributors
+
+This project contains code derived from the SaaS-Bench project:
+
+  https://github.com/UniPat-AI/SaaS-Bench
+
+The extraction is based on upstream commit
+14f0acd0ee871bde7c8e0a2342a2c6ff0535daa2 and selected reliability extensions
+from commit 1d501996f7562459c1c11ab7ed45ca1209efa214.
+
+Only the agent runtime, reliability mechanisms, routing logic, and selected app
+capabilities are included. The SaaS-Bench task dataset, Docker application
+orchestration, slot scheduler, evaluator, reporting pipeline, and experimental
+verifier replacements are not part of this repository.
+
+The project is distributed under the Apache License 2.0. See LICENSE.

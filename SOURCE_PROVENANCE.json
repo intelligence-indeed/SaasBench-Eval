@@ -1,0 +1,29 @@
+{
+  "generated_on": "2026-07-27",
+  "upstream": {
+    "repository": "https://github.com/UniPat-AI/SaaS-Bench",
+    "commit": "14f0acd0ee871bde7c8e0a2342a2c6ff0535daa2"
+  },
+  "extension_source": {
+    "commit": "1d501996f7562459c1c11ab7ed45ca1209efa214",
+    "working_tree_changes_included": false
+  },
+  "extraction": {
+    "scope": "agent-only",
+    "included": [
+      "browser agent runtime",
+      "prompt and tool routing",
+      "loop and termination guards",
+      "LLM observability",
+      "selected app capabilities"
+    ],
+    "excluded": [
+      "task dataset",
+      "Docker app orchestration",
+      "worker and slot scheduling",
+      "evaluation and reporting",
+      "verifier replacements",
+      "raw experiment results"
+    ]
+  }
+}

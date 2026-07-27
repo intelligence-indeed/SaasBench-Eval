@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this agent library, please cite the software and its upstream provenance."
+title: "Intelligence Indeed Agent"
+type: software
+version: 0.1.0b0
+license: Apache-2.0
+authors:
+  - name: "Intelligence Indeed Agent Contributors"
+references:
+  - type: software
+    title: "SaaS-Bench"
+    repository-code: "https://github.com/UniPat-AI/SaaS-Bench"
