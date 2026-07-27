@@ -1,0 +1,14 @@
+task_id: baserow-customer-table
+prompt: |
+  Create a Customers table with Name and Email fields. Add these rows:
+  - Ada Lovelace, ada@example.test
+  - Grace Hopper, grace@example.test
+apps:
+  - baserow
+app_urls:
+  baserow: http://127.0.0.1:8001
+input_files: []
+todo: |
+  - [ ] Open Baserow
+  - [ ] Create the Customers table and fields
+  - [ ] Add and verify both rows

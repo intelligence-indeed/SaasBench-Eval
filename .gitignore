@@ -1,0 +1,28 @@
+.env
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+build/
+dist/
+
+# Local agent runs may contain prompts, screenshots, credentials, and outputs.
+results/
+run-output/
+message-dumps/
+request-dumps/
+*.result.json
+*.log
+*.tgz
+*.tar.gz
+*.zip
+
+# Editor and OS state.
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
